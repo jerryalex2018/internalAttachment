@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:yellow;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: brown;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+header{
+     background-image:url(IMG-20260212-WA0005.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size:cover ;
+    position: relative;
+    min-height: 100vh;
+    /* background-attachment: fixed; */
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    /* left: 300px; */
+    /* position: fixed; */
+    /* top: ; */
+}
+.logo{
+    color: yellow;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+
+.div1, .div2{
+    color:white;
+}
+.div3{
+    background-color: white;
+    width:50%;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 40px;
+    padding: 10px 20px;
+
+}
+.divuno, .divdos, .divtres, .divquatro{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.yellow{
+    margin-left: auto;
+}
+.fa-solid{
+    font-size: 40px;
+}
+.div1{
+    font-size: 50px;
+}p{
+    font-size: 20px;
+}
+
+.overal{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    /* height: auto; */
+    
+}
+.overal2{
+    display: flex;
+    background:green ;
+    /* display: none; */
+    gap: 160px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+
+}
+.yellow{
+    background-color:orange;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    /* justify-content:flex-start; */
+    align-items: center;
+}
+.fa-magnifying-glass{
+    font-size: 30px;
+}
+
+
+ .dropdown{
+    display: none;
+    position: absolute;
+    top: 100%;
+    /* display: flex; */
+    flex-direction: column;
+}
+
+.dropdown a{
+    padding: 0;
+}
+
