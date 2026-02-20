@@ -139,7 +139,7 @@ nav{
         display: none;
     }
     header{
-        background-size: contain;
+        /* background-size: contain; */
     }
 }
 
