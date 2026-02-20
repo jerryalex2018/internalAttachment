@@ -138,5 +138,8 @@ nav{
     .menu{
         display: none;
     }
+    header{
+        background-size: contain;
+    }
 }
 
