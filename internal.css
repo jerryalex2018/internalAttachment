@@ -155,5 +155,15 @@ nav{
     padding: 10px 20px;
 
 }
+.overal2{
+     display: flex;
+    background:green ;
+    /* display: none; */
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+}
 }
 
