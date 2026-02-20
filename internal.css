@@ -157,7 +157,7 @@ nav{
 }
 .overal2{
      display: flex;
-     margin-top: 120px;
+     /* margin-top: 120px; */
     background:green ;
     /* display: none; */
     gap: 100px;
